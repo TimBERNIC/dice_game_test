@@ -1,0 +1,51 @@
+*{
+    margin : 0 ;
+    padding : 0
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+#guessingGame {
+    height: 200px;
+    width: 200px;
+    border: 4px black solid;
+    border-radius: 20px;
+    box-shadow: 0 0 15px red;
+    background-color: blueviolet;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 40%;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+
+
+#guessingGame:hover {
+    border-color: azure;
+}
+
+.point {
+    height: 25px;
+    width: 25px;
+    background-color: rgb(0, 0, 0);
+    border-radius: 50%
+    ;
+}
+
+.transparentPoint {
+    height: 25px;
+    width: 25px;
+    background-color: blueviolet;
+    border-radius: 50%
+    ;
+
+}
+
